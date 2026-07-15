@@ -1,3 +1,17 @@
+# Bubble Sort é um algoritmo de ordenação simples que percorre 
+# repetidamente a lista a ser ordenada, comparando cada par de 
+# elementos adjacentes e os trocando de posição se estiverem 
+# na ordem errada. O processo é repetido até que a lista 
+# esteja ordenada. O nome "Bubble Sort" vem do fato de que 
+# os elementos maiores "flutuam" para o topo da lista a cada passagem.
+
+# Em termos de complexidade de tempo, o Bubble Sort tem um desempenho
+# de O(n^2) no pior caso, o que o torna ineficiente para grandes 
+# conjuntos de dados. No entanto, ele é fácil de entender 
+# e implementar, e pode ser útil
+
+#=======================================================================
+
 #Bubble Sort 
 # Dados de entrada: Lista de n elementos
 # Ordenação de modo crescente

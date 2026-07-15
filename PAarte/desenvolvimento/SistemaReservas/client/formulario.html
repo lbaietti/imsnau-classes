@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<form id="reservaform">
+    <input name="nome">
+    <input name="data" type="date">
+    <input name="hora" type="time">
+    <button>Enviar</button>
+</form>
+
+<script>
+    document.getElementById("reservaform").onsubmit = async e => {
+        e.preventDefault();
+        const dados = {
+            nome: e.target.nome.value,
+            data: e.target.data.value,
+            hora: e.target.hora.value
+        };
+        await fetch("/reservar", {
+            method: "POST",
+            headers: {"Content-Type": "application/json"},
+            body: JSON.stringify(dados)
+        });
+    };
+</script>
