@@ -9,4 +9,4 @@ _*Profiling*_ é o processo de medir o desempenho de diferentes partes de um pro
 
 ### Exemploe em _Bash_
 
-_python -m cProfile myscript.py_
+`python -m cProfile myscript.py`
