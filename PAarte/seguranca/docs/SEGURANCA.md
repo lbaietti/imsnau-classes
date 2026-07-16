@@ -57,11 +57,12 @@ _cursor.execute("SELECT * FROM users WHERE email = ?", (email,))_
 - Responsável por verificar regras de negócio, segurança e integridade.
 
 *Exemplo com Python (regex):*
-
+``` 
 import re
 email = "teste@dominio.pt"
 if re.match(r"[^@]+@[^@]+.\[^@]+", email):
     print("Email válido")
+``` 
 
 
 
