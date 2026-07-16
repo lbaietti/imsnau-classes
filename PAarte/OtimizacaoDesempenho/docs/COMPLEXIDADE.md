@@ -11,8 +11,8 @@ A Complexidade Algorítimca mede o crescimento do tempo de execução ou o uso d
 
 *Exemplo: 0(n)*
 
-def soma(lista):
+`def soma(lista):
     total = 0
     for num in lista:
         total += num
-    return total
+    return total`
