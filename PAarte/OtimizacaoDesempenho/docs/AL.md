@@ -7,7 +7,7 @@
 *Ex:*
 - Não usa threads nem processos, apenas suspende e retoma a tarefa de forma eficiente
 ```
-import *asyncio*
+import asyncio
 
 async def tarefa():
     await asyncio.sleep(1)
