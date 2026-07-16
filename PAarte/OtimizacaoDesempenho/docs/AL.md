@@ -6,7 +6,7 @@
 
 *Ex:*
 - Não usa threads nem processos, apenas suspende e retoma a tarefa de forma eficiente
-
+```
 import *asyncio*
 
 async def tarefa():
@@ -14,3 +14,4 @@ async def tarefa():
     print("Concluída")
 
 asyncio.run(tarefa())
+``
